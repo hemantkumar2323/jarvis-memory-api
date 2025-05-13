@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/memory-write.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/memory-write", "dest": "api/memory-write.js" }
+  ]
+}
